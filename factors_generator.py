@@ -28,4 +28,5 @@ def factorsof(number):
 			factors.add(number/factor)
 	return sorted(factors)
 	
-print factorsof(number)
+if __name__ == '__main__':
+	print factorsof(number)
