@@ -17,7 +17,7 @@ number=int(raw_input("Enter your number:"))			#Used abs() to convert -ve nums to
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 #Factors are always in pairs..ex:36..factors are 6*6,9*4,12*3,18*2,36*1
-#And the smallest factor is always less than sqrt(number)
+#And the smaller(of the pair) factor is always less than sqrt(number)
 from math import sqrt
 
 def factorsof(number):
